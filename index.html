@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://kit.fontawesome.com/00db63f761.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <div class="container">
+         <form id="form">
+            <div class="register"> Register Here</div>
+
+            <!-- user name start Here -->
+
+            <div>
+                <!-- label for user name  -->
+
+                <label for="name">user Name</label>
+                <i class="fas fa-user"></i>
+
+                <!-- input box in username -->
+                <input type="text" name="username"  id="username"  placeholder="Enter the Name"/>
+                <i class="fas fa-exclamation failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+            </div>
+
+            <!-- email start Here -->
+
+            <div>
+                <!-- label for email -->
+
+                <label for="email" >email</label>
+                <i class="fa-solid fa-envelope"></i>
+
+                <!-- input box for email -->
+
+                <input type="text" name="email" id="email" placeholder="Enter your email"/>
+                <i class="fas fa-exclamation failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+            </div>
+
+            <!-- Password start Here -->
+            <div>
+                <!-- label for password -->
+
+                <label for="password">password</label>
+                <i class="fa-solid fa-lock"></i>
+
+                <!-- input box in password -->
+
+                <input type="text" name="password" id="password" placeholder="Enter your password"/>
+                <i class="fas fa-exclamation failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+            </div>
+
+            <!-- submit Button -->
+
+            <div>
+                <button>Submit</button>
+            </div>
+         </form>
+      </div>
+
+      
+
+
+
+    <script src= "./form.js"></script>
+</body>
+</html>
